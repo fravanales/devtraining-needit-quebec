@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>PRUEBA SCRIPT</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>prueba_g_user</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+alert("g_user.firstName = " + g_user.firstName 
+   	+ ", \n g_user.lastName = " + g_user.lastName 
+   	+ ", \n g_user.userName = " + g_user.userName 
+   	+ ", \n g_user.userID = " + g_user.userID);
+alert("Chupa"
+	  + "\n \n \n poto")
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:29:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bbd92c622f4cb010163eb6a62799b6bf</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>prueba_g_user</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_bbd92c622f4cb010163eb6a62799b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:56:04</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5aad98d8db9173800ae3ac44d496193f</instance_id>
+        <instance_name>dev84956</instance_name>
+        <name>sys_script_client_bbd92c622f4cb010163eb6a62799b6bf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;PRUEBA SCRIPT&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;prueba_g_user&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+alert("g_user.firstName = " + g_user.firstName 
+   	+ ", \n g_user.lastName = " + g_user.lastName 
+   	+ ", \n g_user.userName = " + g_user.userName 
+   	+ ", \n g_user.userID = " + g_user.userID);
+alert("Chupa"
+	  + "\n \n \n poto")
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-13 21:29:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bbd92c622f4cb010163eb6a62799b6bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;prueba_g_user&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bbd92c622f4cb010163eb6a62799b6bf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-13 21:56:04&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1009728381</payload_hash>
+        <record_name>prueba_g_user</record_name>
+        <reverted_from/>
+        <source>6b85eab12f807010163eb6a62799b6c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-13 21:56:04</sys_created_on>
+        <sys_id>06c638aa2f4cb010163eb6a62799b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17967bac6db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-13 21:56:04</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4ec638aa544cb010e837d3e4561984b2</update_guid>
+        <update_guid_history>4ec638aa544cb010e837d3e4561984b2:-1009728381,879678aa264cb0104fffd66bf1bfc1ce:-948579069,b176b4aa484cb010f494daf09c6164fe:742186319,8e5670aa4b4cb010324169529c16d892:720969885,342670aa9d4cb01070c6261d3223028c:2000054043,9006706a9a4cb0103d5e1897d1670587:-511221885,a5e5706a5a4cb0103def2cf695f284ed:1210493654,e364b8e68d4cb0104a72a28951d57913:488045843,aa83b02abc4cb010dfa6998e6e7e1815:-1637464833,ac53702afa4cb0105ac2c2742f60a4ce:-1812211389,1a92f0e6774cb010c4d683cdf44d311d:-1637464833,9402f0e6e84cb0102bc8745067dcbe17:1960542011,13b034a60c4cb010dee518f2bdd598b9:-519061000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-14 13:04:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5aaa11064223465aacb9aea4467d15e4</sys_id>
+        <sys_metadata>bbd92c622f4cb010163eb6a62799b6bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prueba_g_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">6056a2b52f807010163eb6a62799b607</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_bbd92c622f4cb010163eb6a62799b6bf</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bbd92c622f4cb010163eb6a62799b6bf">06c638aa2f4cb010163eb6a62799b6b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 13:04:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
